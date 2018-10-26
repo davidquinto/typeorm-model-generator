@@ -28,7 +28,7 @@
         "handlebars": "^4.0.11",
         "mssql": "^4.0.4",
         "mysql": "^2.15.0",
-        "pg": "^7.4.0",
+        "pg": "7.5.0",
         "reflect-metadata": "^0.1.10",
         "sqlite3": "^4.0.2",
         "typeorm": "^0.2.7",
