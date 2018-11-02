@@ -57,7 +57,7 @@
         "codecov": "^3.0.1",
         "dotenv": "^6.0.0",
         "fs-extra": "^7.0.0",
-        "husky": "^1.0.0",
+        "husky": "1.1.2",
         "istanbul": "^0.4.5",
         "lint-staged": "^7.2.0",
         "mocha": "^5.1.1",
