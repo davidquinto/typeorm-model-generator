@@ -1,5 +1,5 @@
 {
-    "name": "typeorm-model-generator",
+    "name": "typeorm-model-generator-liftit",
     "version": "0.2.22",
     "description": "Generates models for TypeORM from existing databases.",
     "bin": "bin/typeorm-model-generator",
