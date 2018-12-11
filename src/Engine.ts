@@ -108,7 +108,7 @@ export class Engine {
             }
             const resultFilePath = path.resolve(
                 entitesPath,
-                casedFileName + ".ts"
+                casedFileName + "entity.ts"
             );
             const rendered = compliedTemplate(element);
             fs.writeFileSync(resultFilePath, rendered, {
