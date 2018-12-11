@@ -1,5 +1,5 @@
 import {Index,Entity, PrimaryColumn, PrimaryGeneratedColumn, Column, OneToOne, OneToMany, ManyToOne, ManyToMany, JoinColumn, JoinTable, RelationId} from "typeorm";
-{{relationImports}}{{#each UniqueImports}}import {{curly true}}{{toEntityName this}}{{curly false}} from "./{{toFileName this}}";
+{{relationImports}}{{#each UniqueImports}}import {{curly true}}{{toEntityName this}}{{curly false}} from "../{{toFileName this}}/{{toFileName this}}.entity";
 {{/each}}
 
 

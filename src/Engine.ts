@@ -106,9 +106,13 @@ export class Engine {
                     casedFileName = element.EntityName;
                     break;
             }
+            const completePath = `${entitesPath}/${casedFileName}`;
+            if (!fs.existsSync(completePath)) {
+                fs.mkdirSync(completePath);
+            }
             const resultFilePath = path.resolve(
-                entitesPath,
-                casedFileName + "entity.ts"
+                completePath,
+                casedFileName + ".entity.ts"
             );
             const rendered = compliedTemplate(element);
             fs.writeFileSync(resultFilePath, rendered, {
