@@ -16,14 +16,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Kononnable/typeorm-model-generator.git"
+        "url": "git+https://github.com/davidquinto/typeorm-model-generator-liftit.git"
     },
-    "author": "Kononnable",
+    "author": "davidquinto",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/Kononnable/typeorm-model-generator/issues"
+        "url": "https://github.com/davidquinto/typeorm-model-generator-liftit/issues"
     },
-    "homepage": "https://github.com/Kononnable/typeorm-model-generator#readme",
+    "homepage": "https://github.com/davidquinto/typeorm-model-generator-liftit#readme",
     "dependencies": {
         "change-case": "^3.0.2",
         "handlebars": "^4.0.11",
